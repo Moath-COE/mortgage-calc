@@ -23,21 +23,31 @@
           <h1 class="input-h1">Mortage Calculator</h1>
           <button class="clr-btn">Clear All</button>
         </div>
-        <div class="input-1">
+        <div class="input-1 input-div">
           <label for="amount">Mortage Amount</label>
-          <input type="number" name="amount" id="amount" />
-        </div>
-        <div>
-          <div class="input-2">
-            <label for="term">Mortage Term</label>
-            <input type="term" name="term" id="term" />
+          <div class="icon">
+            <img src="/assets/images/sterling-sign-solid.svg" alt="" />
+            <input type="number" name="amount" id="amount" />
           </div>
-          <div class="input-3">
+        </div>
+        <div class="middle-input">
+          <div class="input-2 input-div">
+            <label for="term">Mortage Term</label>
+            <div class="icon">
+              <input type="number" name="term" id="term" />
+              <p>years</p>
+            </div>
+          </div>
+          <div class="input-3 input-div">
             <label for="rate">Interest Rate</label>
-            <input type="rate" name="rate" id="rate" />
+            <div class="icon">
+              <input type="number" name="rate" id="rate" />
+              <img src="/assets/images/percent-solid.svg" alt="" />
+            </div>
           </div>
         </div>
         <div class="radio">
+          <h3>Mortage Type</h3>
           <div class="radio-elm">
             <input type="radio" id="rep" name="type" value="rep" />
             <label for="rep">Repayment</label><br />
@@ -56,10 +66,10 @@
           <h2>Results shown here</h2>
           <p>
             Complete the and click "calculate repayment" to see what your
-            monthly repayments would be>
+            monthly repayments would be.
           </p>
         </div>
-        <div class="results-info">
+        <div class="results-info" style="display: none">
           <h2>Your Results</h2>
           <p>
             Your results are shown below based on the information you provided.
