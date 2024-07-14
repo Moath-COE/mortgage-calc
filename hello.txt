@@ -1,2 +1,0 @@
-This is the new file that I just added to practice using Git & the command line.
-Another change to test Another feature.
